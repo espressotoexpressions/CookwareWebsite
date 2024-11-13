@@ -1,0 +1,31 @@
+:root{
+    --greenbg: #08573B;
+    --black:#000000;
+    --text:#292828;
+    --active-hover: #982A1C;
+    --accent-txt : #B73A2A;
+    --card-color-option: #EA2D2C;
+    --card-color-selector: #353535;
+    --navbar-txt:#353535;
+    --background: #EDEDED;
+    --secondary-txt: #FFFFFF;
+
+
+}
+
+.navigation{
+    background-color: var(--background);
+    padding: 2rem 5rem;
+
+}
+
+.navigation-links{
+    
+}
+
+.logo-img{
+width: 100px;  
+  height: auto;
+
+
+}
