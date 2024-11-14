@@ -198,3 +198,82 @@ padding:2rem;
   }
 
   /*best sellers end*/
+
+  /*reviews start*/
+  .reviews-parent{
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 2rem 2rem;
+
+  }
+  .reviews-card{
+    width:531px;
+        height: 664.751px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius:10px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .reviews-txt{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:3rem 3rem;
+    flex-direction: column;
+    border-radius: 10px;
+    background:rgba(18,18,18,0.60); /* overlay 60% transparency*/ 
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,.25);
+    width: 80%;
+    height: 40%;
+    color: white;
+
+
+  }
+
+  .review1{
+    
+        background-image: url('../assets/Reviews1.jpg');
+        
+     
+    
+  }
+  .review2{
+    
+
+    background-image: url('../assets/Reviews2.jpg');
+
+  }
+  .review3{
+    
+
+    background-image: url('../assets/Reviews3.jpg');
+
+  }
+  /*reviews end*/
+
+  /*footer start*/
+  .footer{
+  
+        min-height:100%;
+        display:grid;
+        grid-template-columns:1fr 6fr 4fr 1fr;
+        background-color: var(--greenbg);
+        color: white;
+
+        padding: 2rem 2rem;
+    }
+
+    .footer-links-section{
+
+    }
+
+    .footer-subscribe-section{
+        
+    }
+  
+  /*footer end*/
