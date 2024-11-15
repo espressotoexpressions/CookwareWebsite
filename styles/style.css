@@ -18,10 +18,14 @@
 body{
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     background-color: var(--background);
+    margin: 0;
+    padding: 0;
 }
 
 h1{
     font-size: 64px;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 h2{
    font-size: 36px;
@@ -68,13 +72,13 @@ width: 100px;
     height: 1067px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: 20% 50%; */
+    background-position: center; /* Centers the image regardless of the screen size*/
 }
 .hero-image-row{
     margin-bottom: 12rem;
     margin-left:5rem;
     padding: 1rem 1rem;
-    width: 500px;
+    width: 30rem;
     border: 1px solid black;
     background-color:var(--herobg) ;
     color:white;
@@ -89,6 +93,7 @@ width: 100px;
     padding: 2rem;
     color:white;
     font-size: 24px;
+    text-align: center;
 }
 
 /*start cooking*/
@@ -118,7 +123,7 @@ padding:2rem;
 
 
   .new-arrivals{
-   width:80%;
+   width:90%;
   }
 
   .new-arrivals img{
@@ -191,7 +196,7 @@ padding:2rem;
   }
 
   .best-sellers-card button{
-    /* margin:auto; */
+ 
     border-radius:0;
     padding: .5rem 2rem;
     width:200px;
@@ -258,22 +263,50 @@ padding:2rem;
 
   /*footer start*/
   .footer{
-  
-        min-height:100%;
+   
+      
+        width:100%;
         display:grid;
-        grid-template-columns:1fr 6fr 4fr 1fr;
+        grid-template-columns: repeat(8,1fr);
         background-color: var(--greenbg);
         color: white;
-
-        padding: 2rem 2rem;
+        padding: 5rem 2rem 3rem 2rem;
+        margin-top: 7rem;
+        
+      
     }
 
-    .footer-links-section{
+    .footer-links-about{
+      grid-column: 1 ;
 
     }
+    .footer-links-products{
+      grid-column: 2 ;
+      
+
+    }
+
+    .footer-links-customerservice{
+      grid-column: 3 ;
+      
+
+    }
+
 
     .footer-subscribe-section{
-        
+
+        grid-column: 6/8;
     }
+  .footer-subscribe-section input{
+    height: 42px;
+    width: 240px;
+  }
+  .footer-subscribe-section button{
+    height: 42px;
+   width: 159px;
+  }
   
+  .icons i{
+    padding:2rem 1rem 0 0;
+  }
   /*footer end*/
