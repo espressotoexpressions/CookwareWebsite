@@ -138,8 +138,8 @@ padding:2rem;
 .color-selector {
     width: 40px;
     height: 40px;
-    border-radius: 50%;       /* Makes it circular */
-    display: inline-block;    /* Aligns the items side-by-side */
+    border-radius: 50%;      
+    display: inline-block; 
     background-color: inherit;
     cursor: pointer;
    margin: 0 .5rem;
@@ -153,7 +153,7 @@ padding:2rem;
       border: 4px solid white;
     
       /* Outer white border */
-      box-shadow: 0 0 0 1px black; /* 4px white border outside the black border */
+      box-shadow: 0 0 0 1px black; 
 
   }
   /*new arrivals end*/
@@ -162,7 +162,6 @@ padding:2rem;
   .best-sellers-parent{
     margin: 1rem 1rem;
     display: flex;
-
     gap:20px;
    
     
