@@ -15,3 +15,7 @@ Used  CSS systems and Framework for responsiveness - Grid, Flexbox and BootStrap
 Use CSS systems to style the site. 
 
 // Person who Peer Reviewed my assignment
+
+Alexander Soria:
+
+Your page replicates the prototype well! There are just a copule of things to keep in mind: In the navbar, there should be an effect where the text turns orange and has an underline when hovering over it. Take a look at the UI kit, and you'll see it. Nice hovering effeect on the images. It's simple but very effective to let the images pop out. But note that for the New Arrivals images, those darken when hovered. Other than those minor details, your website is really really good! Nicely done!
